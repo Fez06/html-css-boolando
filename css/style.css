@@ -144,3 +144,6 @@ hr {
 
 /* -----HOVER---- */
 
+.box-uno:hover {
+    content: url();
+}
