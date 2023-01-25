@@ -24,6 +24,16 @@
     width: 30%;
     margin-top: 100px;
 }
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.deleted {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.7)
+}
 /* ------HEADER----- */
 
 .bar {
@@ -51,13 +61,18 @@ ul {
 }
 /* -----MAIN------ */
 
-.debug {
+/* .debug {
     background-color: blueviolet;
     height: 640px;
-}
+} */
 
 .product-page {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.product img {
+    max-height: 100%;
+    max-width: 100%;
 }
