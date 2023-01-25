@@ -155,3 +155,9 @@ hr {
     position: absolute;
 }
 
+.cuore {
+    content: \2665;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
