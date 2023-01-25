@@ -144,6 +144,18 @@ hr {
 
 /* -----HOVER---- */
 
-.box-uno:hover {
-    content: url();
+.img-trick:hover .cover {
+    display: inline;
 }
+
+.cover {
+    display: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.img-trick {
+    position: absolute;
+}
+
