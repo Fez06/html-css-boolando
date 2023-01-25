@@ -4,6 +4,7 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* ------COMMON----- */
@@ -101,6 +102,9 @@ ul {
     max-width: 100%;
 }
 
+.type {
+    font-weight: bolder;
+}
 
 /* ---ON THE PRODUCTS--- */
 
@@ -156,8 +160,15 @@ hr {
 }
 
 .cuore {
-    content: \2665;
-    padding: 10px;
+    padding: 10px 20px;
     background-color: white;
     color: black;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    font-size: 40px;
+}
+
+.cuore:hover {
+    color: red;
 }
