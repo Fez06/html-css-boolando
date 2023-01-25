@@ -20,6 +20,10 @@
     padding-right: 200px;
 }
 
+.product {
+    width: 30%;
+    margin-top: 100px;
+}
 /* ------HEADER----- */
 
 .bar {
@@ -40,7 +44,20 @@ ul {
     padding: 0;
 }
 
-img {
+.logo img {
     width: 100%;
+    min-width: 113px;
     height: 25px;
+}
+/* -----MAIN------ */
+
+.debug {
+    background-color: blueviolet;
+    height: 640px;
+}
+
+.product-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
