@@ -101,6 +101,7 @@ ul {
     max-width: 100%;
 }
 
+
 /* ---ON THE PRODUCTS--- */
 
 .cart.ribasso, .cart.sconto{
@@ -116,4 +117,23 @@ ul {
 
 .mix {
     position: relative;
+}
+
+/* ---FOOTER START--- */
+
+footer {
+    padding-top: 50px;
+}
+
+.end-container {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+
+.contacts-top, footer li {
+    font-size: 10px;
+    line-height: 1.8;
 }
